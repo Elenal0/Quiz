@@ -1,15 +1,15 @@
 /* filename: assets/css/styles.css */
 :root {
-    --primary-color: #2563eb;
-    --primary-hover: #1d4ed8;
-    --secondary-color: #64748b;
+    --primary-color: #3A3335;
+    --primary-hover: #4c5980;
+    --secondary-color: #D81E5B;
     --success-color: #10b981;
     --error-color: #ef4444;
     --warning-color: #f59e0b;
-    --background-color: #f8fafc;
-    --card-background: #ffffff;
+    --background-color: rgba(210, 105, 30, 0.454);
+    --card-background: #FDF0D5;
     --text-primary: #1e293b;
-    --text-secondary: #64748b;
+    --text-secondary: #333334;
     --border-color: #e2e8f0;
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
@@ -137,7 +137,7 @@ main {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, rgba(37, 99, 235, 0.9), rgba(59, 130, 246, 0.9)),
+    background: linear-gradient(135deg,  #D81E5B, rgba(202, 103, 27, 0.9)),
                 url('../images/bg-home.jpg') center/cover;
     color: white;
     text-align: center;
@@ -159,8 +159,8 @@ main {
 }
 
 .btn-primary {
-    background: var(--primary-color);
-    color: white;
+    background-color:#FDF0D5 ;
+    color: rgb(0, 0, 0);
     padding: 0.75rem 2rem;
     border: none;
     border-radius: var(--border-radius);
@@ -173,7 +173,7 @@ main {
 }
 
 .btn-primary:hover {
-    background: var(--primary-hover);
+    background-color: #e8d938;
     transform: translateY(-2px);
 }
 
@@ -192,14 +192,14 @@ main {
 }
 
 .btn-secondary:hover {
-    background: #475569;
+    background: #9121b7;
     transform: translateY(-2px);
 }
 
 /* Topic Cards */
 .topics-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     gap: 2rem;
     margin: 3rem 0;
 }
@@ -428,17 +428,46 @@ main {
 }
 
 .stat-card {
-    background: var(--card-background);
+    background-color: #D81E5B;
     padding: 1.5rem;
-    border-radius: var(--border-radius);
+    border-radius: 20px;
     box-shadow: var(--shadow);
     text-align: center;
+    transition: transform 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.stat-card p {
+    color: #FDF0D5;
+}
+
+.stat-card div a {
+    color: #dbbfc8;
+}
+
+.stat-card div a:hover {
+    color: #2bfb4a;
+}
+
+
+
+.dev-imageA {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+    border: 3px solid var(--primary-color);
 }
 
 .stat-number {
     font-size: 2.5rem;
     font-weight: bold;
-    color: var(--primary-color);
+    color: #FDF0D5;
 }
 
 .stat-label {
@@ -503,8 +532,8 @@ main {
 
 /* Footer */
 .footer {
-    background: var(--text-primary);
-    color: white;
+    background-color: var(--primary-color);
+    color: #dbbfc8;
     padding: 3rem 0 1rem;
     margin-top: auto;
 }
@@ -520,7 +549,7 @@ main {
 
 .footer-section h3 {
     margin-bottom: 1rem;
-    color: var(--primary-color);
+    color: #FDF0D5;
 }
 
 .dev-team {
@@ -539,7 +568,7 @@ main {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 0.5rem;
-    border: 3px solid var(--primary-color);
+    border: 3px solid var(--secondary-color);
 }
 
 .developer h4 {
@@ -566,7 +595,7 @@ main {
 }
 
 .social-links a:hover {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .footer-bottom {

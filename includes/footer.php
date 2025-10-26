@@ -10,28 +10,37 @@
                 <h3>Developers</h3>
                 <div class="dev-team">
                     <div class="developer">
-                        <img src="<?php echo isset($basePath) ? $basePath : '../'; ?>assets/images/dev1.jpg" alt="Developer 1" class="dev-image">
-                        <h4>John Doe</h4>
+                        <img src="<?php echo isset($basePath) ? $basePath : '../'; ?>assets/images/bilal.png" alt="Bilal" class="dev-image">
+                        <h4>Bilal Teli</h4>
                         <p>Full Stack Developer</p>
                         <div class="social-links">
-                            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/bilal-teli-42ab0137a/" aria-label="LinkedIn">LinkedIn</a>
                             <a href="#" aria-label="GitHub">GitHub</a>
                         </div>
                     </div>
                     <div class="developer">
-                        <img src="<?php echo isset($basePath) ? $basePath : '../'; ?>assets/images/dev2.jpg" alt="Developer 2" class="dev-image">
-                        <h4>Jane Smith</h4>
-                        <p>UI/UX Designer</p>
+                        <img src="<?php echo isset($basePath) ? $basePath : '../'; ?>assets/images/dev.png" alt="Dev" class="dev-image">
+                        <h4>Dev Tayade</h4>
+                        <p>Full Stack Developer</p>
                         <div class="social-links">
-                            <a href="#" aria-label="LinkedIn">LinkedIn</a>
-                            <a href="#" aria-label="Dribbble">Dribbble</a>
+                            <a href="" aria-label="LinkedIn">LinkedIn</a>
+                            <a href="#" aria-label="Github">Github</a>
+                        </div>
+                    </div>
+                    <div class="developer">
+                        <img src="<?php echo isset($basePath) ? $basePath : '../'; ?>assets/images/nupur.png" alt="Nupur" class="dev-image">
+                        <h4>Nupur Thakur</h4>
+                        <p>Full Stack Developer</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/nupurth60/" aria-label="LinkedIn">LinkedIn</a>
+                            <a href="https://github.com/Elenal0" aria-label="GitHub">GitHub</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 QuizMaster. All rights reserved.</p>
+            <p>&copy; 2025 QuizMaster. All rights reserved.</p>
         </div>
     </footer>
 
