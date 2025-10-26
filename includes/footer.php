@@ -15,7 +15,7 @@
                         <p>Full Stack Developer</p>
                         <div class="social-links">
                             <a href="https://www.linkedin.com/in/bilal-teli-42ab0137a/" aria-label="LinkedIn">LinkedIn</a>
-                            <a href="#" aria-label="GitHub">GitHub</a>
+                            <a href="https://github.com/BilalTeli" aria-label="GitHub">GitHub</a>
                         </div>
                     </div>
                     <div class="developer">
@@ -23,8 +23,8 @@
                         <h4>Dev Tayade</h4>
                         <p>Full Stack Developer</p>
                         <div class="social-links">
-                            <a href="" aria-label="LinkedIn">LinkedIn</a>
-                            <a href="#" aria-label="Github">Github</a>
+                            <a href="https://www.linkedin.com/in/dev-tayade-834b692ab" aria-label="LinkedIn">LinkedIn</a>
+                            <a href="https://github.com/iblameDev17" aria-label="Github">Github</a>
                         </div>
                     </div>
                     <div class="developer">

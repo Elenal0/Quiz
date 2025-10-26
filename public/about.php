@@ -22,7 +22,7 @@ $jsPath = '../assets/js/script.js';
                 <p>Worked on - Backend, Frontend, Bug fixes</p>
                 <div class="social-links">
                     <a href="https://www.linkedin.com/in/bilal-teli-42ab0137a/">LinkedIn</a>
-                    <a href="#">GitHub</a>
+                    <a href="https://github.com/BilalTeli">GitHub</a>
                 </div>
             </div>
             <div class="stat-card">
@@ -30,8 +30,8 @@ $jsPath = '../assets/js/script.js';
                 <h4>Dev Tayade</h4>
                 <p>Worked on - Xampp, Backend, Frontend</p>
                 <div class="social-links">
-                    <a href="#">LinkedIn</a>
-                    <a href="#">Github</a>
+                    <a href="https://www.linkedin.com/in/dev-tayade-834b692ab">LinkedIn</a>
+                    <a href="https://github.com/iblameDev17">Github</a>
                 </div>
             </div>
             <div class="stat-card">
